@@ -1,0 +1,49 @@
+.board {
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+				width: 300px;
+				font-family: Quicksand, Sans-Serif;
+}
+
+.team-names,
+.scores {
+  padding: 10px;
+  text-align: center;
+}
+
+.team-names {
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+}
+
+.thome {
+  color: #009578;
+}
+
+.taway {
+  color: #290095;
+}
+
+.scores {
+  font-size: 2em;
+}
+
+.controls {
+  display: flex;
+}
+
+.button {
+  flex-grow: 1;
+  border: none;
+  background: #eee;
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+.button:hover {
+  background: #ddd;
+}
+
+.button:active {
+  background: #ccc;
+}
